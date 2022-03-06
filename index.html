@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bookshelf</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css\styles.css">
+  <link rel="icon" href="resources\favicon F.ico">
+</head>
+<body>
+  <!-- Navbar content -->
+  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">BOOKSHELF</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="registration.html">Sign Up</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.php">Login</a>
+        </li>
+      </ul>
+      <form action="search_books.php" method="GET" class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search a book" name="bk">
+        <input type="submit" value="Search" name="sub" class="form-control btn btn-info">
+      </form>
+    </div>
+  </nav>
+
+  <!-- navbar 2 -->
+
+  <nav class="navbar navbar-expand-sm navbar-light justify-content-center" style="background-color: #f4f1ea;">
+    <div>
+      <ul class="nav justify-content-center ">
+  <li class="nav-item" >
+    <a class="nav-link lhover lvisited" href="author.html">Author</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link lhover lvisited" href="publication.html">Publication</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link lhover lvisited" href="genre.html">Genre</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link lhover lvisited" href="published_year.html">Published year</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link lhover lvisited" href="rating.html">Ratings</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link lhover lvisited" href="advanced.html">Advanced search</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link lhover lvisited" href="insert.html">Insert a new book</a>
+</li>
+</ul>
+</div>
+</nav>
+<br>
+
+
+
+  <!-- images -->
+
+  <div class="container">
+      <h5 class="display-4" style="color: brown; background-color: #f4f1ea; padding: 8px; ">Featured Books</h5>
+    <div class="card-deck">
+      <div class="card">
+        <a href="Aguner Poroshmoni.html"><img class="card-img-top" src="images\Aguner Poroshmoni.jpeg" alt="Card image cap"></a>
+        <div class="card-body">
+          <h6 class="card-title"><a href="Aguner Poroshmoni.html">Aguner Poroshmoni <br> Humayun Ahmed</a></h6>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="images\Ami Topu.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h6 class="card-title"><a href="#"> Ami Topu <br> Muhammed Zafar Iqbal</a></h6>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="images\The Da Vinci Code.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h6 class="card-title"><a href="#">The Da Vinci Code <br> Dan Brown</a></h6>
+        </div>
+      </div>
+      <div class="card ">
+        <img class="card-img-top" src="images\Gorvodharini.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h6 class="card-title"><a href="#">Gorvodharini <br> Samaresh Majumder</a></h6>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="images\Jochona O Jononir Golpo.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h6 class="card-title">  <a href="#">Jochona O Jononir Golpo <br> Humayun Ahmed</a> </h6>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="images\The Alchemist.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h6 class="card-title"><a href="#">The Alchemist <br> Paulo Coelho </a></h6>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="images\Sophie_s World.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h6 class="card-title"><a href="#">Sophie's World <br> Jostein Gaarder</a></h6>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="images\Gitanjali.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h6 class="card-title"><a href="#">Gitanjali <br> Rabindranath Tagore</a></h6>
+        </div>
+      </div>
+      <div class="card ">
+        <img class="card-img-top" src="images\21 Lessons for the 21st Century.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h6 class="card-title"><a href="#">21 Lessons for the 21st Century <br> Yuval Noah Harari</a></h6>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="images\Nineteen Eighty Four.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h6 class="card-title"><a href="#">Nineteen Eighty Four <br> George Orwell</a></h6>
+        </div>
+      </div>
+    </div>
+    </div>
+    <br>
+<br>
+
+
+  <!-- footer -->
+
+  <footer class="navbar navbar-light font " style="color: black; background-color: white;">
+
+    <div class="row">
+      <div class="col-md-5 marginr">
+        <h2 class="display-4">BOOK<br> SHELF</h2>
+      </div>
+      <div class="col-md-1 marginr">
+        <div class="vl"></div>
+      </div>
+      <div class="col-md-6 marginl join">
+        <p style="color: black;" >Join our community and get updeted.</p>
+        <a href="">About Us</a> <br>
+        <a href="">Contuct Us</a> <br>
+        <a href="">Help</a>
+      </div>
+    </div>
+
+  </footer>
+
+
+</body>
+</html>
